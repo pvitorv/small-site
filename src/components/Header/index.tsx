@@ -1,6 +1,6 @@
 import styles from './styles.module.scss';
 import Image from 'next/image';
-import logo from '../../../public/images/ponto-white.png';
+import logo from '../../../public/images/point-impact-white (1).png';
 
 import {ActiveLink} from '../ActiveLink';
 export function Header(){
