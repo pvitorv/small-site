@@ -8,7 +8,9 @@ export function Header(){
     return(
         <header className={styles.headerContainer}>
             <div className={styles.headerContent}>
+                <ActiveLink href='/' activeClassName={styles.active}>
                 <a><Image src={logo} alt='Se liga no contexto' priority/></a>
+                </ActiveLink>
                 <nav>
                    <ActiveLink href='/' activeClassName={styles.active}><a>Home</a></ActiveLink>
                    <ActiveLink href='/about'activeClassName={styles.active}><a>About</a></ActiveLink>
