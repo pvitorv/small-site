@@ -31,7 +31,7 @@
 
     span {
         font-size: 1rem;
-        line-height: 2.25rem;
+        line-height: 1.25rem;
         color: var(--gray-700);
     }
 
@@ -83,6 +83,30 @@
         line-height:1.25rem ;
         color: var(--gray-700);
        
+    }
+}
+
+
+
+.footer {
+	background-color:var(--gray-700);
+	color: #fff;
+	padding: 2rem;
+	text-align: center;
+	margin-top: 5rem;
+   
+
+    ul li {
+        list-style: none;
+        display: inline-flex;
+        padding: 20px;
+    }
+
+    p{
+        font-size: 1rem;
+        font-weight: 900;
+        font-style: italic;
+        color: var(--gray-100);
     }
 }
 

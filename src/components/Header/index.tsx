@@ -1,6 +1,6 @@
 import styles from './styles.module.scss';
 import Image from 'next/image';
-import logo from '../../../public/images/point-impact-white (1).png';
+import logo from '../../../public/images/point-impact-yellow(5).png';
 
 
 import {ActiveLink} from '../ActiveLink';
