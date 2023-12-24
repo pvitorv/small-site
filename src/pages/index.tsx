@@ -45,7 +45,7 @@ export default function Home() {
     <div className={styles.footer}>
         <nav>
           <ul>
-            <li><a href="https://api.whatsapp.com/send?phone=5564996035082&text=Quero%20testa%20um%20modelo%20de%20site!%20Pode%20me%20atender?"><img src="./images/whatsapp-logo-4456.png" alt="" /></a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=5564996035082&text=Quero%20testar%20um%20modelo%20de%20site!%20Pode%20me%20atender?"><img src="./images/whatsapp-logo-4456.png" alt="" /></a></li>
             <li><a href="https://www.linkedin.com/in/paulo-vitor-vaz-6b750b229/"><img src="./images/linkedin-logo-2430.png" alt="" /></a></li>
             <li><a href="mailto:pontodeimpacto790@gmail.com"><img src="./images/gmail-logo-2561.png" alt="" /></a></li>
           </ul>

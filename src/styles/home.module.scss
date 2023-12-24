@@ -55,18 +55,20 @@
 
 .sectionContent{
     margin:5.5rem ;
-    max-width: 1120px;
+    max-width: 2820px;
     display: flex;
     align-items: center;
     justify-content: center;
 
 
     section{
-        max-width: 670px;
+        max-width: 870px;
+        
     }
 
     img{
-        max-width: 550px;
+        max-width: 500px;
+       
     }
 
     h2{
@@ -112,3 +114,114 @@
 
 
 
+
+
+@media (max-width: 1242px){
+    .container{
+        .containerHeader{
+            padding: 0 2rem;
+
+            button{
+                display: block;
+            }
+        }
+        img{
+            max-width: 600px;
+        }
+        h1{
+           font-size: 2rem; 
+        }
+        div h2 {
+            font-size: 1.7rem;
+            span{
+                font-size: 1rem;
+            }
+        }
+        .sectionContent{
+            padding: 0 2rem;
+        } 
+        .footer{
+            padding: 0 2rem;
+        }
+    }
+}
+@media(max-width:960px){
+    .container{
+        .containerHeader{
+            flex-direction: column;
+
+            button{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        div img{
+            max-width: 500px;
+
+        }
+        div h1{
+            font-size: 2rem;
+        }
+
+        h2{
+            font-size: 1rem;
+        }
+        .sectionContent{
+            flex-direction: column;
+            img{
+                margin-top: 2rem;
+                max-width: 500px;
+            }
+        }
+        .footer{
+            p{
+                padding: 0 2rem;
+                font-size: 1rem;
+                
+            }
+        }
+    }
+}
+
+@media(max-width:590px){
+    .container{
+        .containerHeader{
+            flex-direction: column;
+
+            button{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        div img{
+            
+            max-width: 390px;
+
+        }
+        div h1{
+            font-size: 2rem;
+        }
+
+        h2{
+            font-size: 1rem;
+        }
+        .sectionContent{
+            flex-direction: column;
+            img{
+                margin-top: 2rem;
+                max-width: 390px;
+            }
+        }
+        .footer{
+            p{
+                padding: 0 2rem;
+                font-size: 1rem;
+                
+            }
+        }
+    }
+}
