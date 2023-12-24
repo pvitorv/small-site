@@ -12,7 +12,8 @@ export default function Home() {
       <div className={styles.containerHeader}>
         <section className={styles.ctaText}>
           <h1>Levando você ao próximo nível!</h1>
-          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nemo ipsa voluptatem sit exercitationem officiis nobis, officia repellendus nostrum nisi veniam nulla dignissimos culpa sint.  </span>
+          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, amet delectus! Voluptate distinctio natus maxime! </span>
+          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nemo ipsa voluptatem sit exercitationem officiis nobis, officia repellendus nostrum nisi veniam nulla dignissimos culpa.  </span>
 
           <a><button>COMEÇAR AGORA!</button></a>
           

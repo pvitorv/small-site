@@ -30,16 +30,16 @@
     }
 
     span {
-        font-size: 1rem;
+        font-size: 2rem;
         line-height: 1.25rem;
-        color: var(--gray-700);
+        color: var(--gray-200);
     }
 
     button{
         background-color: var(--blue-900);
         border: 0;
-        padding: 1rem 1.8rem;
-        margin-top: 2.5rem;
+        padding: 1rem 2rem;
+        margin-top: 2.9rem;
         border-radius: 7px;
         color: var(--white);
         font-weight: bold;
@@ -72,7 +72,7 @@
     }
 
     h2{
-        font-size: 2.2rem;
+        font-size: 2.7rem;
         line-height: 2.5rem;
         font-weight: 900;
         margin-top: 2.2rem;
@@ -81,9 +81,9 @@
     }
 
     span{
-        font-size: 1rem;
+        font-size: 2rem;
         line-height:1.25rem ;
-        color: var(--gray-700);
+        color: var(--gray-200);
        
     }
 }
@@ -129,12 +129,12 @@
             max-width: 600px;
         }
         h1{
-           font-size: 2rem; 
+           font-size: 3rem; 
         }
         div h2 {
-            font-size: 1.7rem;
+            font-size: 2.7rem;
             span{
-                font-size: 1rem;
+                font-size: 2rem;
             }
         }
         .sectionContent{
@@ -162,11 +162,11 @@
 
         }
         div h1{
-            font-size: 2rem;
+            font-size: 3rem;
         }
 
         h2{
-            font-size: 1rem;
+            font-size: 2rem;
         }
         .sectionContent{
             flex-direction: column;
@@ -178,7 +178,7 @@
         .footer{
             p{
                 padding: 0 2rem;
-                font-size: 1rem;
+                font-size: 2rem;
                 
             }
         }
@@ -203,11 +203,11 @@
 
         }
         div h1{
-            font-size: 2rem;
+            font-size: 3rem;
         }
 
         h2{
-            font-size: 1rem;
+            font-size: 2.2rem;
         }
         .sectionContent{
             flex-direction: column;
@@ -219,7 +219,7 @@
         .footer{
             p{
                 padding: 0 2rem;
-                font-size: 1rem;
+                font-size: 2rem;
                 
             }
         }
