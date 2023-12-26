@@ -14,7 +14,7 @@ export function Header(){
                 <nav>
                    <ActiveLink href='/' activeClassName={styles.active}><a>Home</a></ActiveLink>
                    <ActiveLink href='/about'activeClassName={styles.active}><a>About</a></ActiveLink>
-                   <ActiveLink href='/blog'activeClassName={styles.active}><a>Blog</a></ActiveLink> 
+                   <ActiveLink href='/posts'activeClassName={styles.active}><a>Posts</a></ActiveLink> 
                 </nav>
                 <a className={styles.readyButton} type='button' href="https://qualquercoisa.com.br">Começar</a>
             </div>
