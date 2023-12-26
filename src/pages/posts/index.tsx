@@ -4,6 +4,7 @@ import styles from './styles.module.scss';
 import Link from 'next/link';
 import Image from 'next/image';
 import thumbImg from '../../../public/images/thumb.png';
+import {FiChevronLeft, FiChevronsLeft, FiChevronRight, FiChevronsRight } from 'react-icons/fi';
 export default function Blog() {
     return <>
     <Head >
@@ -16,14 +17,24 @@ export default function Blog() {
       <div className={styles.posts}>
 
         <Link href="/">
-          <a>
-            <Image src={thumbImg} alt="Post titulo 1" width={720} height={410} quality={100}/>
-            <strong>Como usar nossa ferramenta</strong>
-            <time>25 DEZEMBRO 2023</time>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto at ipsam sequi, voluptatum fuga ex.</p>
-          </a>
-        </Link>
 
+          <Image src={thumbImg} alt="Post titulo 1" width={720} height={410} quality={100}/>
+          <strong>Como usar nossa ferramenta</strong>
+          <time>25 DEZEMBRO 2023</time>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto at ipsam sequi, voluptatum fuga ex.</p>
+
+        </Link>
+        <div className= {styles.buttonNavigate}>
+          <div>
+            <button><FiChevronsLeft sise={25} color="#fff" /> </button>
+            <button><FiChevronLeft sise={25} color="#fff" /> </button>
+          </div>
+          <div>
+            <button><FiChevronsRight sise={25} color="#fff" /> </button>
+            <button><FiChevronRight sise={25} color="#fff" /> </button>
+          </div>
+        </div>
+       
       </div>
     </main>
     </>;
