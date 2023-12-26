@@ -7,7 +7,7 @@ const Header: React.FC = () => {
         <Link
           href="/"
           className="d-flex align-items-center text-dark text-decoration-none"
-        >
+          legacyBehavior>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="32"
