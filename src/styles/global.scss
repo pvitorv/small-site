@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: var(--white);
     
 }
 
@@ -13,7 +14,7 @@
     --gray-700: #15171b; //background header
     --gray-900: #111113; //background body
 
-    --blue-900: #1fa4e5; //CTA -Buttons
+    --blue-900: #0547fbf5; //CTA -Buttons
     --yellow-500:#ffbe16;
 }
 
@@ -36,7 +37,7 @@
 }
 
 body{
-    background: var(--gray-900);
+    background: var(--white);
 }
 
 body, input, textarea, select, button{
